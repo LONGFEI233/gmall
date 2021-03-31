@@ -26,9 +26,9 @@
 		<fastjson.version>1.2.45</fastjson.version>
 		<velocity.version>1.7</velocity.version>
 		<pagehelper.spring.boot.version>1.2.5</pagehelper.spring.boot.version>
-		<mysql.version>5.1.38</mysql.version>
-		<mssql.version>4.0</mssql.version>
-		<oracle.version>11.2.0.3</oracle.version>
+		<mysql.version>8.0.13</mysql.version>
+		<mssql.version>8.4.1.jre8</mssql.version>
+		<oracle.version>19.3.0.0</oracle.version>
 	</properties>
 
 	<dependencies>
@@ -89,14 +89,14 @@
 		</dependency>
 		<!-- oracle驱动 -->
 		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
+			<groupId>com.oracle.ojdbc</groupId>
+			<artifactId>ojdbc10_g</artifactId>
 			<version>${oracle.version}</version>
 		</dependency>
 		<!-- sqlserver驱动 -->
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>sqljdbc4</artifactId>
+			<artifactId>mssql-jdbc</artifactId>
 			<version>${mssql.version}</version>
 		</dependency>
 		<!-- postgresql驱动 -->
