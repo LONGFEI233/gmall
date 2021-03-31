@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author wangdp1688
  */
 @SpringBootApplication
-@MapperScan("io.renren.dao")
+@MapperScan("com.lf.generator.dao")
 public class GmallGeneratorApplication {
 
 	public static void main(String[] args) {
