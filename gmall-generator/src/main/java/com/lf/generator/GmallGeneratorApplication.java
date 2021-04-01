@@ -11,6 +11,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.lf.generator.dao")
 public class GmallGeneratorApplication {
 
+	/*
+			Allows configuring and using Tomcat and TomEE application
+			servers directly from IntelliJ IDEA, for deploying and
+			running/debugging web and enterprise applications.
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(GmallGeneratorApplication.class, args);
 	}
