@@ -19,11 +19,11 @@ spring:
       probability: 1
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.16.116.100:3306/guli_ums
+    url: jdbc:mysql://127.0.01:3306/guli_ums
     username: root
-    password: root
+    password: 123456
   redis:
-    host: 172.16.116.100
+    host: 127.0.0.1
 feign:
   sentinel:
     enabled: true
