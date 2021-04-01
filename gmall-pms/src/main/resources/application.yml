@@ -15,9 +15,9 @@ spring:
       seata:
         tx-service-group: gmall-tx-group
   rabbitmq:
-    host: 172.16.116.100
-    virtual-host: /fengge
-    username: fengge
-    password: fengge
+    host: 127.0.0.1
+    virtual-host: /lf
+    username: lf
+    password: lf
     publisher-confirm-type: correlated
     publisher-returns: true
