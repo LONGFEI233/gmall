@@ -35,7 +35,7 @@ public class OrderController {
     private OrderService orderService;
 
     /**
-     * 列表
+     * 查询按页排序
      */
     @GetMapping
     @ApiOperation("分页查询")
@@ -47,7 +47,7 @@ public class OrderController {
 
 
     /**
-     * 信息
+     * 查询按ID排序
      */
     @GetMapping("{id}")
     @ApiOperation("详情查询")
